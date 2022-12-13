@@ -10,6 +10,7 @@
 /**---탑버튼---**/
 .scroll-top {
 	position: fixed;
+  text-align: center;
 	right: 1.2%;
 	bottom:140px;
 	z-index: 100;
@@ -34,8 +35,8 @@ input {
 }
 
 .open {
-  margin-top: 40px;
-  margin-left: 6%;
+  margin-top: 30px;
+  right: 1.5%;
   background-color: #FECD04;
   width: 24px;
   height: 4px;
