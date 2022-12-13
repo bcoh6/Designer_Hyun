@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Designer Hyun</title>
+    <link rel="stylesheet" href="master.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+
+<body>
+    
+    <nav>
+        <ul class="menubar">
+            <li class="menu menu01"><a href="sub03.html">Identity</a></li>
+            <li class="menu menu02"><a href="sub04.html">Editorial</a></li>
+            <li class="logo"><a href="main.html"><img src="img/W_logo.png" alt=""></a></li>
+            <li class="menu menu03"><a href="sub01.html">Web</a></li> 
+            <li class="menu menu04"><a href="sub02.html">UI/UX</a></li>
+        </ul>
+    </nav>
+
+
+    <button class="scroll-top" id="js-button">
+        <i class="fa fa-chevron-up" aria-hidden="true">TOP</i>
+    </button>
+
+
+    <!--섹션 : 콘텐츠 영역-->
+    <section>
+
+        <div class="wrap">
+            <div class="main_box01"></div>
+            <div data-aos="zoom-in" data-aos-duration="3000">
+                <div class="main_box02"></div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <footer> 
+        <div class="footer"></div>
+    </footer>
+
+
+
+    <script type="text/javascript">
+        scrollTop('js-button', 500);
+        function scrollTop(elem,duration) {
+            let target = document.getElementById(elem);
+        
+            target.addEventListener('click', function() {
+                let currentY = window.pageYOffset; 
+                let step = duration/currentY > 1 ? 10 : 100;
+                let timeStep = duration/currentY * step;
+                let intervalID = setInterval(scrollUp, timeStep);
+        
+                function scrollUp(){
+                    currentY = window.pageYOffset;
+                    if(currentY === 0) {
+                        clearInterval(intervalID);
+                    } else {
+                        scrollBy( 0, -step );
+                    }
+                }
+            });
+        }
+    </script>
+ 
+ </script>
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ <script>
+   AOS.init();
+ </script>
+
+</body>
+
+</html>
