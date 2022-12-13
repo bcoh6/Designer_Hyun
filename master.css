@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Oswald:wght@200;300;400;500;600;700&display=swap');
-@media all and (device-width:600px) {
-    
-}
+
 
 /**---전 항목 공통---**/
 *{
@@ -112,6 +110,7 @@ height: 104px; background-size: cover;}
     width: 179px;
     height: 48px;
     margin-top: 0px;
+    text-align: center;
     position: absolute;
     top: 50%;
     left: 46%;
