@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+
 *{ 
   margin: 0;
   padding: 0;
@@ -8,11 +10,11 @@
 /**---탑버튼---**/
 .scroll-top {
 	position: fixed;
-	right: 1%;
+	right: 1.2%;
 	bottom:140px;
 	z-index: 100;
 	background-color: #232323;
-    opacity: .4;
+  opacity: .4;
 	width: 50px;
 	height: 50px;
 	border-radius: 50%;
@@ -33,7 +35,7 @@ input {
 
 .open {
   margin-top: 40px;
-  margin-left: 1%;
+  margin-left: 3%;
   background-color: #FECD04;
   width: 24px;
   height: 4px;
@@ -127,7 +129,7 @@ input {
 
 .menu ul li a {
   display: block;
-  color: #F9FADF;
+  color: #FECD04;
   text-decoration: none;
   transition: color 0.2s;
   line-height: 2;
@@ -136,17 +138,11 @@ input {
 }
 
 .menu ul li a:hover {
-  color: #FECD04;
+  color: #Ffff;
+ background-color: #FECD04; 
 }
 
-.menu ul li:hover {
-  text-decoration : underline;
-  text-underline-offset : 5px;
-  text-decoration-color: #FECD04;
 
-  
-
-}
 
 .menuEffects {
   opacity: 0;
@@ -200,7 +196,7 @@ input {
 .menu_ft{
   font-size: 6pt;
   text-align: center;
-  padding-top: 10px;
+  padding-top: 20px;
   line-height: 1.5;
   color: #7e7e7e;
   font-family: 'Apple SD 산돌고딕 Neo';
