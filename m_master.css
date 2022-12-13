@@ -36,7 +36,7 @@ input {
 
 .open {
   margin-top: 30px;
-  right: 1.5%;
+  right: 3%;
   background-color: #FECD04;
   width: 24px;
   height: 4px;
@@ -95,7 +95,7 @@ input {
 .menu {
   margin-top: 0px;
   position: fixed;
-  width: 410px;
+  width: 414px;
   height: 310px;
   top: 0;
   left: 0;
@@ -225,7 +225,7 @@ margin-top: -120px;
 
 /*--main--*/
 .main_top{
-  margin-top: 0px;
+  margin-top: -10px;
 }
 
 .main_cont01{
@@ -238,11 +238,11 @@ margin-top: -120px;
 
 /*--서브01--*/
 .sub01_top{
-  margin-top: 0px;
+  margin-top: -10px;
 }
 
 .sub01_cont01{
-    margin-top: -10px;
+    margin-top: 0px;
     border: solid 0px red;
 }
 
@@ -256,7 +256,7 @@ margin-top: -120px;
 
 /*--서브02--*/
 .sub02_top{
-  margin-top: 0px;
+  margin-top: -10px;
 }
 
 .sub02_cont01{
@@ -271,7 +271,7 @@ margin-top: -120px;
 
 /*--서브03--*/
 .sub03_top{
-  margin-top: 0px;
+  margin-top: -10px;
 
 }
 
@@ -289,7 +289,7 @@ margin-top: -120px;
 
 /*--서브04--*/
 .sub04_top{
-  margin-top: 0px;
+  margin-top: -10px;
 }
 
 .sub04_cont01{
