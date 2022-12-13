@@ -35,7 +35,7 @@ input {
 
 .open {
   margin-top: 40px;
-  margin-left: 3%;
+  margin-left: 4%;
   background-color: #FECD04;
   width: 24px;
   height: 4px;
@@ -196,7 +196,7 @@ input {
 .menu_ft{
   font-size: 6pt;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 35px;
   line-height: 1.5;
   color: #7e7e7e;
   font-family: 'Apple SD 산돌고딕 Neo';
